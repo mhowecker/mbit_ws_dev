@@ -1,0 +1,60 @@
+[0.013s] Invoking command in '/home/martin/ros2_workspaces/ros2_ws_dev/build/polygon_plugins': AMENT_PREFIX_PATH=/home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_base:/opt/ros/humble /usr/bin/cmake /home/martin/ros2_workspaces/ros2_ws_dev/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins
+[0.117s] -- The C compiler identification is GNU 11.3.0
+[0.209s] -- The CXX compiler identification is GNU 11.3.0
+[0.218s] -- Detecting C compiler ABI info
+[0.341s] -- Detecting C compiler ABI info - done
+[0.343s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.344s] -- Detecting C compile features
+[0.345s] -- Detecting C compile features - done
+[0.350s] -- Detecting CXX compiler ABI info
+[0.504s] -- Detecting CXX compiler ABI info - done
+[0.513s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.513s] -- Detecting CXX compile features
+[0.514s] -- Detecting CXX compile features - done
+[0.518s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.773s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.944s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.030s] -- Found polygon_base: 0.0.0 (/home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_base/share/polygon_base/cmake)
+[1.034s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[1.196s] -- Configuring done
+[1.204s] -- Generating done
+[1.206s] -- Build files have been written to: /home/martin/ros2_workspaces/ros2_ws_dev/build/polygon_plugins
+[1.222s] Invoked command in '/home/martin/ros2_workspaces/ros2_ws_dev/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_base:/opt/ros/humble /usr/bin/cmake /home/martin/ros2_workspaces/ros2_ws_dev/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins
+[1.225s] Invoking command in '/home/martin/ros2_workspaces/ros2_ws_dev/build/polygon_plugins': AMENT_PREFIX_PATH=/home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_base:/opt/ros/humble /usr/bin/cmake --build /home/martin/ros2_workspaces/ros2_ws_dev/build/polygon_plugins -- -j2 -l2
+[1.306s] [ 50%] [32mBuilding CXX object CMakeFiles/polygon_plugins.dir/src/polygon_plugins.cpp.o[0m
+[2.273s] [100%] [32m[1mLinking CXX shared library libpolygon_plugins.so[0m
+[2.418s] [100%] Built target polygon_plugins
+[2.441s] Invoked command in '/home/martin/ros2_workspaces/ros2_ws_dev/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_base:/opt/ros/humble /usr/bin/cmake --build /home/martin/ros2_workspaces/ros2_ws_dev/build/polygon_plugins -- -j2 -l2
+[2.516s] Invoking command in '/home/martin/ros2_workspaces/ros2_ws_dev/build/polygon_plugins': AMENT_PREFIX_PATH=/home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_base:/opt/ros/humble /usr/bin/cmake --install /home/martin/ros2_workspaces/ros2_ws_dev/build/polygon_plugins
+[2.528s] -- Install configuration: ""
+[2.529s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins/share/polygon_plugins/plugins.xml
+[2.529s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins/include
+[2.530s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins/include/polygon_plugins
+[2.530s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins/include/polygon_plugins/visibility_control.h
+[2.530s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins/include/polygon_plugins/polygon_plugins.hpp
+[2.531s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins/lib/libpolygon_plugins.so
+[2.532s] -- Set runtime path of "/home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins/lib/libpolygon_plugins.so" to ""
+[2.533s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins/share/polygon_plugins/environment/library_path.sh
+[2.533s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins/share/polygon_plugins/environment/library_path.dsv
+[2.533s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins/share/ament_index/resource_index/package_run_dependencies/polygon_plugins
+[2.534s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins/share/ament_index/resource_index/parent_prefix_path/polygon_plugins
+[2.534s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.sh
+[2.534s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.dsv
+[2.535s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins/share/polygon_plugins/environment/path.sh
+[2.535s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins/share/polygon_plugins/environment/path.dsv
+[2.535s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins/share/polygon_plugins/local_setup.bash
+[2.535s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins/share/polygon_plugins/local_setup.sh
+[2.536s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins/share/polygon_plugins/local_setup.zsh
+[2.536s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins/share/polygon_plugins/local_setup.dsv
+[2.536s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins/share/polygon_plugins/package.dsv
+[2.536s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins/share/ament_index/resource_index/packages/polygon_plugins
+[2.537s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins/share/ament_index/resource_index/polygon_base__pluginlib__plugin/polygon_plugins
+[2.537s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport.cmake
+[2.537s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport-noconfig.cmake
+[2.538s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.538s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[2.539s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[2.539s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig.cmake
+[2.539s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig-version.cmake
+[2.539s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_plugins/share/polygon_plugins/package.xml
+[2.545s] Invoked command in '/home/martin/ros2_workspaces/ros2_ws_dev/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/martin/ros2_workspaces/ros2_ws_dev/install/polygon_base:/opt/ros/humble /usr/bin/cmake --install /home/martin/ros2_workspaces/ros2_ws_dev/build/polygon_plugins

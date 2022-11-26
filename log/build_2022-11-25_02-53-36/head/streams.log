@@ -1,0 +1,59 @@
+[1.272s] Invoking command in '/home/martin/ros2_workspaces/ros2_ws_dev/src/head': PYTHONPATH=/home/martin/ros2_workspaces/ros2_ws_dev/install/head/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/head build --build-base /home/martin/ros2_workspaces/ros2_ws_dev/build/head/build install --prefix /home/martin/ros2_workspaces/ros2_ws_dev/install/head --record /home/martin/ros2_workspaces/ros2_ws_dev/build/head/install.log --single-version-externally-managed
+[1.695s] running egg_info
+[1.697s] creating ../../build/head/head.egg-info
+[1.698s] writing ../../build/head/head.egg-info/PKG-INFO
+[1.699s] writing dependency_links to ../../build/head/head.egg-info/dependency_links.txt
+[1.699s] writing entry points to ../../build/head/head.egg-info/entry_points.txt
+[1.700s] writing requirements to ../../build/head/head.egg-info/requires.txt
+[1.701s] writing top-level names to ../../build/head/head.egg-info/top_level.txt
+[1.702s] writing manifest file '../../build/head/head.egg-info/SOURCES.txt'
+[1.713s] reading manifest file '../../build/head/head.egg-info/SOURCES.txt'
+[1.715s] writing manifest file '../../build/head/head.egg-info/SOURCES.txt'
+[1.716s] running build
+[1.716s] running build_py
+[1.717s] creating /home/martin/ros2_workspaces/ros2_ws_dev/build/head/build
+[1.717s] creating /home/martin/ros2_workspaces/ros2_ws_dev/build/head/build/lib
+[1.717s] creating /home/martin/ros2_workspaces/ros2_ws_dev/build/head/build/lib/head
+[1.718s] copying head/head_move_sub.py -> /home/martin/ros2_workspaces/ros2_ws_dev/build/head/build/lib/head
+[1.718s] copying head/head_state_service.py -> /home/martin/ros2_workspaces/ros2_ws_dev/build/head/build/lib/head
+[1.719s] copying head/head_tf_move_sub.py -> /home/martin/ros2_workspaces/ros2_ws_dev/build/head/build/lib/head
+[1.719s] copying head/__init__.py -> /home/martin/ros2_workspaces/ros2_ws_dev/build/head/build/lib/head
+[1.720s] running install
+[1.722s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.722s]   warnings.warn(
+[1.723s] running install_lib
+[1.725s] creating /home/martin/ros2_workspaces/ros2_ws_dev/install/head/lib/python3.10/site-packages/head
+[1.725s] copying /home/martin/ros2_workspaces/ros2_ws_dev/build/head/build/lib/head/head_move_sub.py -> /home/martin/ros2_workspaces/ros2_ws_dev/install/head/lib/python3.10/site-packages/head
+[1.726s] copying /home/martin/ros2_workspaces/ros2_ws_dev/build/head/build/lib/head/head_state_service.py -> /home/martin/ros2_workspaces/ros2_ws_dev/install/head/lib/python3.10/site-packages/head
+[1.726s] copying /home/martin/ros2_workspaces/ros2_ws_dev/build/head/build/lib/head/head_tf_move_sub.py -> /home/martin/ros2_workspaces/ros2_ws_dev/install/head/lib/python3.10/site-packages/head
+[1.726s] copying /home/martin/ros2_workspaces/ros2_ws_dev/build/head/build/lib/head/__init__.py -> /home/martin/ros2_workspaces/ros2_ws_dev/install/head/lib/python3.10/site-packages/head
+[1.728s] byte-compiling /home/martin/ros2_workspaces/ros2_ws_dev/install/head/lib/python3.10/site-packages/head/head_move_sub.py to head_move_sub.cpython-310.pyc
+[1.728s]   File "/home/martin/ros2_workspaces/ros2_ws_dev/install/head/lib/python3.10/site-packages/head/head_move_sub.py", line 18
+[1.729s]     print msg
+[1.729s]     ^^^^^^^^^
+[1.729s] SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+[1.729s] 
+[1.729s] byte-compiling /home/martin/ros2_workspaces/ros2_ws_dev/install/head/lib/python3.10/site-packages/head/head_state_service.py to head_state_service.cpython-310.pyc
+[1.730s] byte-compiling /home/martin/ros2_workspaces/ros2_ws_dev/install/head/lib/python3.10/site-packages/head/head_tf_move_sub.py to head_tf_move_sub.cpython-310.pyc
+[1.731s]   File "/home/martin/ros2_workspaces/ros2_ws_dev/install/head/lib/python3.10/site-packages/head/head_tf_move_sub.py", line 24
+[1.731s]     br.sendTransform((-0.010, 0513, 1.079),
+[1.731s]                               ^
+[1.731s] SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+[1.732s] 
+[1.732s] byte-compiling /home/martin/ros2_workspaces/ros2_ws_dev/install/head/lib/python3.10/site-packages/head/__init__.py to __init__.cpython-310.pyc
+[1.732s] running install_data
+[1.739s] creating /home/martin/ros2_workspaces/ros2_ws_dev/install/head/share
+[1.739s] creating /home/martin/ros2_workspaces/ros2_ws_dev/install/head/share/ament_index
+[1.739s] creating /home/martin/ros2_workspaces/ros2_ws_dev/install/head/share/ament_index/resource_index
+[1.739s] creating /home/martin/ros2_workspaces/ros2_ws_dev/install/head/share/ament_index/resource_index/packages
+[1.739s] copying resource/head -> /home/martin/ros2_workspaces/ros2_ws_dev/install/head/share/ament_index/resource_index/packages
+[1.739s] creating /home/martin/ros2_workspaces/ros2_ws_dev/install/head/share/head
+[1.740s] copying package.xml -> /home/martin/ros2_workspaces/ros2_ws_dev/install/head/share/head
+[1.740s] running install_egg_info
+[1.743s] Copying ../../build/head/head.egg-info to /home/martin/ros2_workspaces/ros2_ws_dev/install/head/lib/python3.10/site-packages/head-0.0.0-py3.10.egg-info
+[1.745s] running install_scripts
+[1.777s] Installing head_move_sub script to /home/martin/ros2_workspaces/ros2_ws_dev/install/head/lib/head
+[1.778s] Installing head_state_service script to /home/martin/ros2_workspaces/ros2_ws_dev/install/head/lib/head
+[1.784s] Installing head_tf_move_sub script to /home/martin/ros2_workspaces/ros2_ws_dev/install/head/lib/head
+[1.785s] writing list of installed files to '/home/martin/ros2_workspaces/ros2_ws_dev/build/head/install.log'
+[1.842s] Invoked command in '/home/martin/ros2_workspaces/ros2_ws_dev/src/head' returned '0': PYTHONPATH=/home/martin/ros2_workspaces/ros2_ws_dev/install/head/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/head build --build-base /home/martin/ros2_workspaces/ros2_ws_dev/build/head/build install --prefix /home/martin/ros2_workspaces/ros2_ws_dev/install/head --record /home/martin/ros2_workspaces/ros2_ws_dev/build/head/install.log --single-version-externally-managed

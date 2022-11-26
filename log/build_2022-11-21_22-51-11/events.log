@@ -1,0 +1,141 @@
+[0.000000] (-) TimerEvent: {}
+[0.005924] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.007128] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.007196] (-) JobUnselected: {'identifier': 'my_package'}
+[0.007231] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.007262] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.007291] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.007326] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.007363] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.084068] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.084350] (-) TimerEvent: {}
+[0.090961] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces'], 'cwd': '/home/martin/ros2_workspaces/ros2_ws_dev/build/more_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'martin'), ('SSH_CLIENT', '192.168.0.31 62482 22'), ('LC_TIME', 'de_AT.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/martin/ros2_workspaces/ros2_ws_dev/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/martin'), ('OLDPWD', '/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_AT.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/martin/ros2_workspaces/ros2_ws_dev/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'martin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_AT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_AT.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '111'), ('AMENT_PREFIX_PATH', '/home/martin/ros2_workspaces/ros2_ws_dev/install/py_srvcli:/home/martin/ros2_workspaces/ros2_ws_dev/install/py_pubsub:/home/martin/ros2_workspaces/ros2_ws_dev/install/tutorial_interfaces:/home/martin/ros2_workspaces/ros2_ws_dev/install/my_package:/home/martin/ros2_workspaces/ros2_ws_dev/install/cpp_srvcli:/home/martin/ros2_workspaces/ros2_ws_dev/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_AT.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_AT.UTF-8'), ('LC_IDENTIFICATION', 'de_AT.UTF-8'), ('PWD', '/home/martin/ros2_workspaces/ros2_ws_dev/build/more_interfaces'), ('SSH_CONNECTION', '192.168.0.31 62482 192.168.0.185 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/martin/ros2_workspaces/ros2_ws_dev/install/py_srvcli/lib/python3.10/site-packages:/home/martin/ros2_workspaces/ros2_ws_dev/install/py_pubsub/lib/python3.10/site-packages:/home/martin/ros2_workspaces/ros2_ws_dev/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/martin/ros2_workspaces/ros2_ws_dev/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_AT.UTF-8'), ('LC_PAPER', 'de_AT.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/martin/ros2_workspaces/ros2_ws_dev/install/tutorial_interfaces:/home/martin/ros2_workspaces/ros2_ws_dev/install/cpp_srvcli:/home/martin/ros2_workspaces/ros2_ws_dev/install/cpp_pubsub:/home/martin/ros2_workspaces/ros2_ws_dev/install/py_srvcli:/home/martin/ros2_workspaces/ros2_ws_dev/install/py_pubsub:/home/martin/ros2_workspaces/ros2_ws_dev/install/my_package:/opt/ros/humble')]), 'shell': False}
+[0.184799] (-) TimerEvent: {}
+[0.290984] (-) TimerEvent: {}
+[0.395909] (-) TimerEvent: {}
+[0.499671] (-) TimerEvent: {}
+[0.602574] (-) TimerEvent: {}
+[0.703637] (-) TimerEvent: {}
+[0.807051] (-) TimerEvent: {}
+[0.911555] (-) TimerEvent: {}
+[1.008379] (more_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[1.013505] (-) TimerEvent: {}
+[1.119516] (-) TimerEvent: {}
+[1.236005] (-) TimerEvent: {}
+[1.340369] (-) TimerEvent: {}
+[1.442835] (-) TimerEvent: {}
+[1.571130] (-) TimerEvent: {}
+[1.684289] (-) TimerEvent: {}
+[1.789601] (-) TimerEvent: {}
+[1.897055] (-) TimerEvent: {}
+[1.937809] (more_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[1.993983] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.999548] (-) TimerEvent: {}
+[2.102623] (-) TimerEvent: {}
+[2.204551] (-) TimerEvent: {}
+[2.289754] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.303011] (more_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.305259] (-) TimerEvent: {}
+[2.307604] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.311069] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.324818] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.405545] (-) TimerEvent: {}
+[2.507339] (-) TimerEvent: {}
+[2.597554] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.612614] (-) TimerEvent: {}
+[2.622240] (more_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.625676] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.628428] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.657670] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.713353] (-) TimerEvent: {}
+[2.835702] (-) TimerEvent: {}
+[2.963862] (-) TimerEvent: {}
+[3.065436] (-) TimerEvent: {}
+[3.173326] (-) TimerEvent: {}
+[3.247873] (more_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[3.273853] (-) TimerEvent: {}
+[3.382383] (-) TimerEvent: {}
+[3.489519] (-) TimerEvent: {}
+[3.593560] (-) TimerEvent: {}
+[3.701082] (-) TimerEvent: {}
+[3.743069] (more_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.802125] (-) TimerEvent: {}
+[3.903607] (-) TimerEvent: {}
+[4.006353] (-) TimerEvent: {}
+[4.095764] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.109223] (-) TimerEvent: {}
+[4.131419] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.197647] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.209766] (-) TimerEvent: {}
+[4.297834] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.314836] (-) TimerEvent: {}
+[4.451128] (-) TimerEvent: {}
+[4.465892] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.551882] (-) TimerEvent: {}
+[4.664765] (-) TimerEvent: {}
+[4.783191] (-) TimerEvent: {}
+[4.886097] (-) TimerEvent: {}
+[4.899333] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.927185] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.986387] (-) TimerEvent: {}
+[5.103765] (-) TimerEvent: {}
+[5.209294] (-) TimerEvent: {}
+[5.310865] (-) TimerEvent: {}
+[5.412843] (-) TimerEvent: {}
+[5.454343] (more_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.514287] (-) TimerEvent: {}
+[5.542215] (more_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.614637] (-) TimerEvent: {}
+[5.632931] (more_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.719329] (-) TimerEvent: {}
+[5.855858] (-) TimerEvent: {}
+[5.985007] (-) TimerEvent: {}
+[6.129051] (-) TimerEvent: {}
+[6.234362] (-) TimerEvent: {}
+[6.313492] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[6.335541] (-) TimerEvent: {}
+[6.451642] (-) TimerEvent: {}
+[6.560010] (-) TimerEvent: {}
+[6.664249] (-) TimerEvent: {}
+[6.765458] (-) TimerEvent: {}
+[6.866527] (-) TimerEvent: {}
+[6.972840] (-) TimerEvent: {}
+[7.035295] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[7.073314] (-) TimerEvent: {}
+[7.177963] (-) TimerEvent: {}
+[7.283586] (-) TimerEvent: {}
+[7.388720] (-) TimerEvent: {}
+[7.497025] (-) TimerEvent: {}
+[7.599965] (-) TimerEvent: {}
+[7.748224] (-) TimerEvent: {}
+[7.850679] (-) TimerEvent: {}
+[7.953372] (-) TimerEvent: {}
+[8.046732] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.053783] (-) TimerEvent: {}
+[8.155672] (-) TimerEvent: {}
+[8.257705] (-) TimerEvent: {}
+[8.362319] (-) TimerEvent: {}
+[8.423448] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.465632] (-) TimerEvent: {}
+[8.472153] (more_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[8.479981] (more_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[8.544119] (more_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[8.544407] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.544514] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[8.544610] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[8.567082] (-) TimerEvent: {}
+[8.584649] (more_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[8.667451] (-) TimerEvent: {}
+[8.749899] (more_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.768142] (more_interfaces) StderrLine: {'line': b'\x1b[0mCMake Error: The following variables are used in this project, but they are set to NOTFOUND.\n'}
+[8.768587] (-) TimerEvent: {}
+[8.769685] (more_interfaces) StderrLine: {'line': b'Please set them or make sure they are set and tested correctly in the CMake files:\n'}
+[8.769917] (more_interfaces) StderrLine: {'line': b'more_interfaces__rosidl_get_typesupport_cpp\n'}
+[8.770076] (more_interfaces) StderrLine: {'line': b'    linked by target "publish_address_book" in directory /home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces\n'}
+[8.770227] (more_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[8.828249] (more_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[8.834100] (more_interfaces) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[8.853563] (more_interfaces) CommandEnded: {'returncode': 1}
+[8.869021] (-) TimerEvent: {}
+[8.907646] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 1}
+[8.917296] (-) EventReactorShutdown: {}

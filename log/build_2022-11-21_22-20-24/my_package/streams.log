@@ -1,0 +1,23 @@
+[1.576s] Invoking command in '/home/martin/ros2_workspaces/ros2_ws_dev/src/my_package': PYTHONPATH=/home/martin/ros2_workspaces/ros2_ws_dev/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/martin/ros2_workspaces/ros2_ws_dev/build/my_package/build install --prefix /home/martin/ros2_workspaces/ros2_ws_dev/install/my_package --record /home/martin/ros2_workspaces/ros2_ws_dev/build/my_package/install.log --single-version-externally-managed
+[2.116s] running egg_info
+[2.118s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[2.120s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[2.121s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[2.122s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[2.124s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[2.128s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[2.130s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[2.131s] running build
+[2.131s] running build_py
+[2.132s] running install
+[2.134s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.134s]   warnings.warn(
+[2.134s] running install_lib
+[2.137s] running install_data
+[2.138s] running install_egg_info
+[2.141s] removing '/home/martin/ros2_workspaces/ros2_ws_dev/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)
+[2.142s] Copying ../../build/my_package/my_package.egg-info to /home/martin/ros2_workspaces/ros2_ws_dev/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[2.144s] running install_scripts
+[2.181s] Installing my_node script to /home/martin/ros2_workspaces/ros2_ws_dev/install/my_package/lib/my_package
+[2.184s] writing list of installed files to '/home/martin/ros2_workspaces/ros2_ws_dev/build/my_package/install.log'
+[2.232s] Invoked command in '/home/martin/ros2_workspaces/ros2_ws_dev/src/my_package' returned '0': PYTHONPATH=/home/martin/ros2_workspaces/ros2_ws_dev/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/martin/ros2_workspaces/ros2_ws_dev/build/my_package/build install --prefix /home/martin/ros2_workspaces/ros2_ws_dev/install/my_package --record /home/martin/ros2_workspaces/ros2_ws_dev/build/my_package/install.log --single-version-externally-managed

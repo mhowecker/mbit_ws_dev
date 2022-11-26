@@ -1,0 +1,27 @@
+[0.050s] Invoking command in '/home/martin/ros2_workspaces/ros2_ws_dev/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/martin/ros2_workspaces/ros2_ws_dev/install/py_srvcli:/home/martin/ros2_workspaces/ros2_ws_dev/install/py_pubsub:/home/martin/ros2_workspaces/ros2_ws_dev/install/python_parameters:/home/martin/ros2_workspaces/ros2_ws_dev/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/martin/ros2_workspaces/ros2_ws_dev/build/cpp_pubsub -- -j2 -l2
+[0.277s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[0.296s] [ 75%] Built target talker
+[25.875s] [100%] [32m[1mLinking CXX executable listener[0m
+[27.020s] [100%] Built target listener
+[27.047s] Invoked command in '/home/martin/ros2_workspaces/ros2_ws_dev/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/martin/ros2_workspaces/ros2_ws_dev/install/py_srvcli:/home/martin/ros2_workspaces/ros2_ws_dev/install/py_pubsub:/home/martin/ros2_workspaces/ros2_ws_dev/install/python_parameters:/home/martin/ros2_workspaces/ros2_ws_dev/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/martin/ros2_workspaces/ros2_ws_dev/build/cpp_pubsub -- -j2 -l2
+[27.203s] Invoking command in '/home/martin/ros2_workspaces/ros2_ws_dev/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/martin/ros2_workspaces/ros2_ws_dev/install/py_srvcli:/home/martin/ros2_workspaces/ros2_ws_dev/install/py_pubsub:/home/martin/ros2_workspaces/ros2_ws_dev/install/python_parameters:/home/martin/ros2_workspaces/ros2_ws_dev/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/martin/ros2_workspaces/ros2_ws_dev/build/cpp_pubsub
+[27.239s] -- Install configuration: ""
+[27.249s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/cpp_pubsub/lib/cpp_pubsub/talker
+[27.258s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/cpp_pubsub/lib/cpp_pubsub/listener
+[27.273s] -- Set runtime path of "/home/martin/ros2_workspaces/ros2_ws_dev/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[27.273s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[27.276s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[27.277s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[27.278s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[27.278s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[27.279s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[27.280s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[27.280s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[27.281s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[27.281s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[27.284s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[27.285s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[27.287s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[27.288s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[27.289s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[27.301s] Invoked command in '/home/martin/ros2_workspaces/ros2_ws_dev/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/martin/ros2_workspaces/ros2_ws_dev/install/py_srvcli:/home/martin/ros2_workspaces/ros2_ws_dev/install/py_pubsub:/home/martin/ros2_workspaces/ros2_ws_dev/install/python_parameters:/home/martin/ros2_workspaces/ros2_ws_dev/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/martin/ros2_workspaces/ros2_ws_dev/build/cpp_pubsub

@@ -1,0 +1,19 @@
+{
+  "package_name": "mbit_interfaces",
+  "output_dir": "/home/martin/ros2_workspaces/ros2_ws_dev/build/mbit_interfaces/rosidl_typesupport_fastrtps_c/mbit_interfaces",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource",
+  "idl_tuples": [
+    "/home/martin/ros2_workspaces/ros2_ws_dev/build/mbit_interfaces/rosidl_adapter/mbit_interfaces:srv/HeadState.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/msg__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
+    "/home/martin/ros2_workspaces/ros2_ws_dev/build/mbit_interfaces/rosidl_adapter/mbit_interfaces/srv/HeadState.idl"
+  ]
+}

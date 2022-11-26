@@ -1,0 +1,232 @@
+[0.000000] (-) TimerEvent: {}
+[0.025801] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.025889] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.025925] (-) JobUnselected: {'identifier': 'my_package'}
+[0.025954] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.025982] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.026008] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.026040] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.026074] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.056979] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.069334] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'build'}
+[0.069472] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/martin/ros2_workspaces/ros2_ws_dev/build/more_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/martin/ros2_workspaces/ros2_ws_dev/build/more_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'martin'), ('SSH_CLIENT', '192.168.0.31 49619 22'), ('LC_TIME', 'de_AT.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/martin/ros2_workspaces/ros2_ws_dev/install/tutorial_interfaces/lib:/home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/martin'), ('OLDPWD', '/home/martin'), ('SSH_TTY', '/dev/pts/6'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_AT.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/martin/ros2_workspaces/ros2_ws_dev/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'martin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '13'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_AT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_AT.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '111'), ('AMENT_PREFIX_PATH', '/home/martin/ros2_workspaces/ros2_ws_dev/install/py_srvcli:/home/martin/ros2_workspaces/ros2_ws_dev/install/py_pubsub:/home/martin/ros2_workspaces/ros2_ws_dev/install/tutorial_interfaces:/home/martin/ros2_workspaces/ros2_ws_dev/install/my_package:/home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces:/home/martin/ros2_workspaces/ros2_ws_dev/install/cpp_srvcli:/home/martin/ros2_workspaces/ros2_ws_dev/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_AT.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_AT.UTF-8'), ('LC_IDENTIFICATION', 'de_AT.UTF-8'), ('PWD', '/home/martin/ros2_workspaces/ros2_ws_dev/build/more_interfaces'), ('SSH_CONNECTION', '192.168.0.31 49619 192.168.0.185 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/martin/ros2_workspaces/ros2_ws_dev/install/py_srvcli/lib/python3.10/site-packages:/home/martin/ros2_workspaces/ros2_ws_dev/install/py_pubsub/lib/python3.10/site-packages:/home/martin/ros2_workspaces/ros2_ws_dev/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/martin/ros2_workspaces/ros2_ws_dev/install/my_package/lib/python3.10/site-packages:/home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_AT.UTF-8'), ('LC_PAPER', 'de_AT.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/martin/ros2_workspaces/ros2_ws_dev/install/tutorial_interfaces:/home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces:/home/martin/ros2_workspaces/ros2_ws_dev/install/cpp_srvcli:/home/martin/ros2_workspaces/ros2_ws_dev/install/cpp_pubsub:/home/martin/ros2_workspaces/ros2_ws_dev/install/py_srvcli:/home/martin/ros2_workspaces/ros2_ws_dev/install/py_pubsub:/home/martin/ros2_workspaces/ros2_ws_dev/install/my_package:/opt/ros/humble')]), 'shell': False}
+[0.089869] (-) TimerEvent: {}
+[0.196266] (-) TimerEvent: {}
+[0.225500] (more_interfaces) StdoutLine: {'line': b'[  8%] Built target more_interfaces__cpp\n'}
+[0.226541] (more_interfaces) StdoutLine: {'line': b'[ 11%] Built target more_interfaces__rosidl_generator_c\n'}
+[0.277361] (more_interfaces) StdoutLine: {'line': b'[ 20%] Built target more_interfaces__rosidl_typesupport_cpp\n'}
+[0.292648] (more_interfaces) StdoutLine: {'line': b'[ 20%] Built target ament_cmake_python_copy_more_interfaces\n'}
+[0.298512] (-) TimerEvent: {}
+[0.335895] (more_interfaces) StdoutLine: {'line': b'[ 28%] Built target more_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.343985] (more_interfaces) StdoutLine: {'line': b'[ 37%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.387854] (more_interfaces) StdoutLine: {'line': b'[ 45%] Built target more_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.392249] (more_interfaces) StdoutLine: {'line': b'[ 54%] Built target more_interfaces__rosidl_typesupport_c\n'}
+[0.399533] (-) TimerEvent: {}
+[0.438710] (more_interfaces) StdoutLine: {'line': b'[ 62%] Built target more_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.494225] (more_interfaces) StdoutLine: {'line': b'[ 68%] Built target publish_address_book\n'}
+[0.499866] (-) TimerEvent: {}
+[0.519076] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target subscribe_address_book\x1b[0m\n'}
+[0.556209] (more_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/subscribe_address_book.dir/src/subscribe_address_book.cpp.o\x1b[0m\n'}
+[0.613006] (-) TimerEvent: {}
+[0.818609] (-) TimerEvent: {}
+[0.820238] (more_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.837612] (more_interfaces) StdoutLine: {'line': b'writing more_interfaces.egg-info/PKG-INFO\n'}
+[0.837848] (more_interfaces) StdoutLine: {'line': b'writing dependency_links to more_interfaces.egg-info/dependency_links.txt\n'}
+[0.838278] (more_interfaces) StdoutLine: {'line': b'writing top-level names to more_interfaces.egg-info/top_level.txt\n'}
+[0.848644] (more_interfaces) StdoutLine: {'line': b"reading manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[0.851479] (more_interfaces) StdoutLine: {'line': b"writing manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[0.899740] (more_interfaces) StdoutLine: {'line': b'[ 71%] Built target ament_cmake_python_build_more_interfaces_egg\n'}
+[0.923863] (-) TimerEvent: {}
+[0.947875] (more_interfaces) StdoutLine: {'line': b'[ 71%] Built target more_interfaces\n'}
+[0.992295] (more_interfaces) StdoutLine: {'line': b'[ 74%] Built target more_interfaces__py\n'}
+[1.038907] (-) TimerEvent: {}
+[1.040987] (more_interfaces) StdoutLine: {'line': b'[ 80%] Built target more_interfaces__rosidl_generator_py\n'}
+[1.088573] (more_interfaces) StdoutLine: {'line': b'[ 85%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.132472] (more_interfaces) StdoutLine: {'line': b'[ 91%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.176172] (more_interfaces) StdoutLine: {'line': b'[ 97%] Built target more_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.176424] (-) TimerEvent: {}
+[1.628612] (-) TimerEvent: {}
+[1.729701] (-) TimerEvent: {}
+[1.832116] (-) TimerEvent: {}
+[2.611024] (-) TimerEvent: {}
+[2.740259] (-) TimerEvent: {}
+[2.843604] (-) TimerEvent: {}
+[2.964480] (-) TimerEvent: {}
+[3.107974] (-) TimerEvent: {}
+[3.617970] (-) TimerEvent: {}
+[3.783558] (-) TimerEvent: {}
+[3.892503] (-) TimerEvent: {}
+[4.253571] (-) TimerEvent: {}
+[4.528802] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:12:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KAddressBookPublisher\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.530658] (-) TimerEvent: {}
+[4.540236] (more_interfaces) StderrLine: {'line': b'   12 |                 \x1b[01;31m\x1b[KAddressBookPublisher\x1b[m\x1b[K()\n'}
+[4.543883] (more_interfaces) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.544001] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:20:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kmore_interfaces\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.545013] (more_interfaces) StderrLine: {'line': b'   20 |                 void address_book_callback(const more_interfaces::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K:AddressBook & msg) const\n'}
+[4.545179] (more_interfaces) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.545540] (more_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/build/more_interfaces/rosidl_generator_cpp/more_interfaces/msg/address_book.hpp:7\x1b[m\x1b[K,\n'}
+[4.545661] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:5\x1b[m\x1b[K:\n'}
+[4.545751] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/build/more_interfaces/rosidl_generator_cpp/more_interfaces/msg/detail/address_book__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmore_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[4.546159] (more_interfaces) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[4.546261] (more_interfaces) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.546600] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:20:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.546744] (more_interfaces) StderrLine: {'line': b'   20 |                 void address_book_callback(const more_interfaces::msg\x1b[01;31m\x1b[K:\x1b[m\x1b[KAddressBook & msg) const\n'}
+[4.548297] (more_interfaces) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.623933] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint AddressBookSubscriber::AddressBookPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.624162] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:13:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Konly constructors take member initializers\n'}
+[4.624265] (more_interfaces) StderrLine: {'line': b'   13 |                 : \x1b[01;31m\x1b[KNode\x1b[m\x1b[K("address_book_subscriber")\n'}
+[4.624356] (more_interfaces) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.633900] (-) TimerEvent: {}
+[4.636509] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:15:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kaddress_book_subscribtion_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kaddress_book_subscription_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.636742] (more_interfaces) StderrLine: {'line': b'   15 |                         \x1b[01;31m\x1b[Kaddress_book_subscribtion_\x1b[m\x1b[K = this->create_subscribtion<more_interfaces::msg::AddressBook>(\n'}
+[4.636845] (more_interfaces) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.636936] (more_interfaces) StderrLine: {'line': b'      |                         \x1b[32m\x1b[Kaddress_book_subscription_\x1b[m\x1b[K\n'}
+[4.637022] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:15:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass AddressBookSubscriber\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kcreate_subscribtion\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcreate_subscription\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.637112] (more_interfaces) StderrLine: {'line': b'   15 |                         address_book_subscribtion_ = this->\x1b[01;31m\x1b[Kcreate_subscribtion\x1b[m\x1b[K<more_interfaces::msg::AddressBook>(\n'}
+[4.637196] (more_interfaces) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.637280] (more_interfaces) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[Kcreate_subscription\x1b[m\x1b[K\n'}
+[4.641462] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:15:113:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.641604] (more_interfaces) StderrLine: {'line': b'   15 |                         address_book_subscribtion_ = this->create_subscribtion<more_interfaces::msg::AddressBook\x1b[01;31m\x1b[K>\x1b[m\x1b[K(\n'}
+[4.641697] (more_interfaces) StderrLine: {'line': b'      |                                                                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.641797] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:16:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.641903] (more_interfaces) StderrLine: {'line': b'   16 |                                 \x1b[01;35m\x1b[K"address_book"\x1b[m\x1b[K, 10, std::bind(&AddressBookSubscriber::address_book_callback, this, _1));\n'}
+[4.642466] (more_interfaces) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.644480] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:16:116:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.644587] (more_interfaces) StderrLine: {'line': b'   16 |                                 "address_book", 10, std::bind(&AddressBookSubscriber::address_book_callback, this, \x1b[01;31m\x1b[K_1\x1b[m\x1b[K));\n'}
+[4.645951] (more_interfaces) StderrLine: {'line': b'      |                                                                                                                    \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.646060] (more_interfaces) StderrLine: {'line': b'      |                                                                                                                    \x1b[32m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\n'}
+[4.646150] (more_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:1\x1b[m\x1b[K:\n'}
+[4.646237] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:225:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[4.646322] (more_interfaces) StderrLine: {'line': b'  225 |     extern const _Placeholder<1> \x1b[01;36m\x1b[K_1\x1b[m\x1b[K;\n'}
+[4.646418] (more_interfaces) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.646502] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:17:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.646591] (more_interfaces) StderrLine: {'line': b'   17 |                 \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[4.646675] (more_interfaces) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.646756] (more_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.646839] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.647017] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[4.647118] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.647203] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.647287] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.647381] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.647465] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.647588] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.647672] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.647753] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.647867] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:4\x1b[m\x1b[K:\n'}
+[4.647983] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid AddressBookSubscriber::address_book_callback(int) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.648071] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:22:87:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.648167] (more_interfaces) StderrLine: {'line': b'   22 |                                 RCLCPP_INFO(this->get_logger(), "I heard: \'%s\' \'%s\'", \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K.first_name, msg.last_name);\n'}
+[4.648251] (more_interfaces) StderrLine: {'line': b'      |                                                                                       \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.648333] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:22:87:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[4.648417] (more_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7\x1b[m\x1b[K,\n'}
+[4.648510] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[4.648594] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[4.648677] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32\x1b[m\x1b[K,\n'}
+[4.648759] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42\x1b[m\x1b[K,\n'}
+[4.648924] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[4.649082] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.649175] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.649259] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.649341] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.649423] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.649505] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.649600] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.649687] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.649770] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:4\x1b[m\x1b[K:\n'}
+[4.649908] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.649998] (more_interfaces) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[4.650083] (more_interfaces) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.650165] (more_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7\x1b[m\x1b[K,\n'}
+[4.650248] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28\x1b[m\x1b[K,\n'}
+[4.650330] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30\x1b[m\x1b[K,\n'}
+[4.650411] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45\x1b[m\x1b[K,\n'}
+[4.650494] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[4.650576] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.650656] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.650737] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.650894] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.650988] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.651074] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.651158] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.651242] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:4\x1b[m\x1b[K:\n'}
+[4.651326] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.651542] (more_interfaces) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[4.651644] (more_interfaces) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.651729] (more_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23\x1b[m\x1b[K,\n'}
+[4.651816] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7\x1b[m\x1b[K,\n'}
+[4.651913] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21\x1b[m\x1b[K,\n'}
+[4.651999] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[4.652084] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[4.652167] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[4.652249] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.652338] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.652478] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.652644] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.652735] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.652819] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.652902] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.652984] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:4\x1b[m\x1b[K:\n'}
+[4.653068] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstatistics_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.653161] (more_interfaces) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[4.653244] (more_interfaces) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.653328] (more_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/build/more_interfaces/rosidl_generator_cpp/more_interfaces/msg/address_book.hpp:7\x1b[m\x1b[K,\n'}
+[4.653486] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:5\x1b[m\x1b[K:\n'}
+[4.653575] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/build/more_interfaces/rosidl_generator_cpp/more_interfaces/msg/detail/address_book__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmore_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.653661] (more_interfaces) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[4.653743] (more_interfaces) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.653824] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.653908] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:30:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kfound \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 in nested-name-specifier, expected \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.654005] (more_interfaces) StderrLine: {'line': b'   30 |         rclcpp::spin(std\x1b[01;31m\x1b[K:\x1b[m\x1b[Kmake_shared<AddressBookSubscriber>());\n'}
+[4.654087] (more_interfaces) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.654168] (more_interfaces) StderrLine: {'line': b'      |                         \x1b[32m\x1b[K::\x1b[m\x1b[K\n'}
+[5.176545] (-) TimerEvent: {}
+[5.283052] (-) TimerEvent: {}
+[5.298842] (more_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[5.299093] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[5.299195] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/unordered_map:40\x1b[m\x1b[K,\n'}
+[5.299283] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:61\x1b[m\x1b[K,\n'}
+[5.299368] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:1\x1b[m\x1b[K:\n'}
+[5.299514] (more_interfaces) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = AddressBookSubscriber; _Args = {}; _Tp = AddressBookSubscriber]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.299632] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = AddressBookSubscriber; _Args = {}; _Tp = AddressBookSubscriber; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<AddressBookSubscriber>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.299726] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = AddressBookSubscriber; _Alloc = std::allocator<AddressBookSubscriber>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.299822] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = AddressBookSubscriber; _Alloc = std::allocator<AddressBookSubscriber>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.299909] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<AddressBookSubscriber>; _Args = {}; _Tp = AddressBookSubscriber; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.300008] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<AddressBookSubscriber>; _Args = {}; _Tp = AddressBookSubscriber]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.300094] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = AddressBookSubscriber; _Alloc = std::allocator<AddressBookSubscriber>; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.300189] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = AddressBookSubscriber; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.300274] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:30:53:\x1b[m\x1b[K   required from here\n'}
+[5.300356] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of deleted function \xe2\x80\x98\x1b[01m\x1b[KAddressBookSubscriber::AddressBookSubscriber()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.300466] (more_interfaces) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[5.300635] (more_interfaces) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.300731] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:9:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAddressBookSubscriber::AddressBookSubscriber()\x1b[m\x1b[K\xe2\x80\x99 is implicitly deleted because the default definition would be ill-formed:\n'}
+[5.300820] (more_interfaces) StderrLine: {'line': b'    9 | class \x1b[01;36m\x1b[KAddressBookSubscriber\x1b[m\x1b[K : public rclcpp::Node\n'}
+[5.300903] (more_interfaces) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.300987] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:9:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.301072] (more_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[5.301155] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[5.301238] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[5.301320] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:4\x1b[m\x1b[K:\n'}
+[5.301422] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const rclcpp::Node&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.301547] (more_interfaces) StderrLine: {'line': b' 1294 |   \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[5.301634] (more_interfaces) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.301718] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[5.301803] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.301886] (more_interfaces) StderrLine: {'line': b'  101 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[5.301967] (more_interfaces) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.302054] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[5.302137] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.302221] (more_interfaces) StderrLine: {'line': b'   89 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[5.302302] (more_interfaces) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.302383] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[5.409213] (-) TimerEvent: {}
+[5.412765] (more_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/subscribe_address_book.dir/build.make:76: CMakeFiles/subscribe_address_book.dir/src/subscribe_address_book.cpp.o] Error 1\n'}
+[5.417027] (more_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:622: CMakeFiles/subscribe_address_book.dir/all] Error 2\n'}
+[5.417230] (more_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.417384] (more_interfaces) CommandEnded: {'returncode': 2}
+[5.509619] (-) TimerEvent: {}
+[5.610798] (-) TimerEvent: {}
+[5.711766] (-) TimerEvent: {}
+[5.813739] (-) TimerEvent: {}
+[5.858548] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 2}
+[5.863423] (-) EventReactorShutdown: {}

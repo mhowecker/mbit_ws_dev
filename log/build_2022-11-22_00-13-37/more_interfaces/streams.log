@@ -1,0 +1,191 @@
+[0.028s] Invoking command in '/home/martin/ros2_workspaces/ros2_ws_dev/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/martin/ros2_workspaces/ros2_ws_dev/build/more_interfaces -- -j2 -l2
+[0.136s] [  2%] Built target more_interfaces__cpp
+[0.137s] [ 11%] Built target more_interfaces__rosidl_generator_c
+[0.189s] [ 20%] Built target more_interfaces__rosidl_typesupport_cpp
+[0.203s] [ 20%] Built target ament_cmake_python_copy_more_interfaces
+[0.244s] [ 28%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[0.255s] [ 37%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.294s] [ 45%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[0.305s] [ 54%] Built target more_interfaces__rosidl_typesupport_c
+[0.343s] [ 62%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[0.394s] [ 68%] Built target publish_address_book
+[0.427s] [35m[1mConsolidate compiler generated dependencies of target subscribe_address_book[0m
+[0.462s] [ 71%] [32mBuilding CXX object CMakeFiles/subscribe_address_book.dir/src/subscribe_address_book.cpp.o[0m
+[0.699s] running egg_info
+[0.707s] writing more_interfaces.egg-info/PKG-INFO
+[0.737s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[0.737s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[0.737s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[0.737s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[0.770s] [ 71%] Built target ament_cmake_python_build_more_interfaces_egg
+[0.808s] [ 71%] Built target more_interfaces
+[0.855s] [ 74%] Built target more_interfaces__py
+[0.899s] [ 80%] Built target more_interfaces__rosidl_generator_py
+[0.948s] [ 85%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.990s] [ 91%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.033s] [ 97%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[4.217s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.217s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.217s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[4.217s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.217s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.217s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.217s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.218s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.218s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.218s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.219s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.219s]                  from [01m[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:4[m[K:
+[4.219s] [01m[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:[m[K In member function ‘[01m[Kvoid AddressBookSubscriber::address_book_callback(const AddressBook&) const[m[K’:
+[4.219s] [01m[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:22:65:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kconst _first_name_type[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[4.219s]    22 |                                 RCLCPP_INFO(this->get_logger(), [01;35m[K"I heard: %d %d"[m[K, msg.first_name, msg.last_name);
+[4.219s]       |                                                                 [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[4.219s] [01m[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:22:76:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[4.219s]    22 |                                 RCLCPP_INFO(this->get_logger(), "I heard: [01;36m[K%d[m[K %d", msg.first_name, msg.last_name);
+[4.220s]       |                                                                           [01;36m[K~^[m[K
+[4.220s]       |                                                                            [01;36m[K|[m[K
+[4.220s]       |                                                                            [01;36m[Kint[m[K
+[4.220s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.220s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.220s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[4.220s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.220s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.220s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.220s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.220s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.221s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.221s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.221s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.221s]                  from [01m[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:4[m[K:
+[4.221s] [01m[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:22:65:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kconst _last_name_type[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[4.221s]    22 |                                 RCLCPP_INFO(this->get_logger(), [01;35m[K"I heard: %d %d"[m[K, msg.first_name, msg.last_name);
+[4.221s]       |                                                                 [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[4.221s] [01m[K/home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces/src/subscribe_address_book.cpp:22:79:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[4.221s]    22 |                                 RCLCPP_INFO(this->get_logger(), "I heard: %d [01;36m[K%d[m[K", msg.first_name, msg.last_name);
+[4.221s]       |                                                                              [01;36m[K~^[m[K
+[4.221s]       |                                                                               [01;36m[K|[m[K
+[4.222s]       |                                                                               [01;36m[Kint[m[K
+[14.148s] [100%] [32m[1mLinking CXX executable subscribe_address_book[0m
+[14.776s] [100%] Built target subscribe_address_book
+[14.801s] Invoked command in '/home/martin/ros2_workspaces/ros2_ws_dev/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/martin/ros2_workspaces/ros2_ws_dev/build/more_interfaces -- -j2 -l2
+[15.123s] Invoking command in '/home/martin/ros2_workspaces/ros2_ws_dev/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/martin/ros2_workspaces/ros2_ws_dev/build/more_interfaces
+[15.150s] -- Install configuration: ""
+[15.151s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces
+[15.152s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces
+[15.152s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[15.152s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_c__visibility_control.h
+[15.155s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.h
+[15.155s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[15.155s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.h
+[15.156s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.h
+[15.156s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.h
+[15.156s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.c
+[15.157s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/environment/library_path.sh
+[15.157s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/environment/library_path.dsv
+[15.158s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so
+[15.158s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces
+[15.158s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[15.158s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[15.158s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[15.159s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h
+[15.159s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so
+[15.159s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces
+[15.159s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[15.160s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[15.160s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__builder.hpp
+[15.161s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__traits.hpp
+[15.161s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.hpp
+[15.162s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.hpp
+[15.162s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces
+[15.162s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[15.163s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[15.163s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/dds_fastrtps
+[15.163s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp
+[15.163s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.163s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[15.163s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces
+[15.163s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[15.163s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.163s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[15.163s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h
+[15.164s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.c
+[15.164s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so
+[15.164s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so
+[15.164s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces
+[15.164s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[15.164s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[15.164s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.cpp
+[15.164s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp
+[15.164s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so
+[15.164s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so
+[15.164s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh
+[15.165s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv
+[15.165s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info
+[15.165s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[15.165s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[15.165s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[15.165s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[15.165s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces
+[15.165s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg
+[15.165s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book.py
+[15.165s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book_s.c
+[15.165s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/__init__.py
+[15.166s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.166s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.166s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/libmore_interfaces__rosidl_generator_py.so
+[15.166s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.166s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.166s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[15.166s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c
+[15.166s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/__init__.py
+[15.214s] Listing '/home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces'...
+[15.214s] Listing '/home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg'...
+[15.224s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.224s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.225s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.226s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so
+[15.227s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl
+[15.227s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg
+[15.228s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/lib/more_interfaces/publish_address_book
+[15.228s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/lib/more_interfaces/subscribe_address_book
+[15.239s] -- Set runtime path of "/home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/lib/more_interfaces/subscribe_address_book" to ""
+[15.240s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
+[15.243s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
+[15.249s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh
+[15.249s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv
+[15.251s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/environment/path.sh
+[15.251s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/environment/path.dsv
+[15.252s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/local_setup.bash
+[15.252s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/local_setup.sh
+[15.252s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/local_setup.zsh
+[15.252s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/local_setup.dsv
+[15.252s] -- Installing: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/package.dsv
+[15.254s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces
+[15.255s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport.cmake
+[15.255s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport-noconfig.cmake
+[15.256s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[15.256s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[15.256s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cppExport.cmake
+[15.257s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[15.258s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[15.260s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[15.260s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[15.261s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake
+[15.262s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[15.263s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[15.263s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[15.264s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake
+[15.283s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[15.283s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport.cmake
+[15.287s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[15.287s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake
+[15.288s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.288s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[15.289s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[15.289s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[15.289s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.291s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[15.291s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake
+[15.292s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake
+[15.292s] -- Up-to-date: /home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces/share/more_interfaces/package.xml
+[15.293s] Invoked command in '/home/martin/ros2_workspaces/ros2_ws_dev/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/martin/ros2_workspaces/ros2_ws_dev/build/more_interfaces

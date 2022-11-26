@@ -1,0 +1,24 @@
+[1.717s] Invoking command in '/home/martin/ros2_workspaces/ros2_ws_dev/src/py_pubsub': PYTHONPATH=/home/martin/ros2_workspaces/ros2_ws_dev/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/martin/ros2_workspaces/ros2_ws_dev/build/py_pubsub/build install --prefix /home/martin/ros2_workspaces/ros2_ws_dev/install/py_pubsub --record /home/martin/ros2_workspaces/ros2_ws_dev/build/py_pubsub/install.log --single-version-externally-managed
+[2.099s] running egg_info
+[2.105s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[2.115s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[2.117s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[2.123s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[2.125s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[2.137s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.140s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.142s] running build
+[2.142s] running build_py
+[2.144s] running install
+[2.145s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.145s]   warnings.warn(
+[2.147s] running install_lib
+[2.150s] running install_data
+[2.151s] running install_egg_info
+[2.155s] removing '/home/martin/ros2_workspaces/ros2_ws_dev/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[2.156s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/martin/ros2_workspaces/ros2_ws_dev/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[2.158s] running install_scripts
+[2.199s] Installing listener script to /home/martin/ros2_workspaces/ros2_ws_dev/install/py_pubsub/lib/py_pubsub
+[2.199s] Installing talker script to /home/martin/ros2_workspaces/ros2_ws_dev/install/py_pubsub/lib/py_pubsub
+[2.200s] writing list of installed files to '/home/martin/ros2_workspaces/ros2_ws_dev/build/py_pubsub/install.log'
+[2.245s] Invoked command in '/home/martin/ros2_workspaces/ros2_ws_dev/src/py_pubsub' returned '0': PYTHONPATH=/home/martin/ros2_workspaces/ros2_ws_dev/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/martin/ros2_workspaces/ros2_ws_dev/build/py_pubsub/build install --prefix /home/martin/ros2_workspaces/ros2_ws_dev/install/py_pubsub --record /home/martin/ros2_workspaces/ros2_ws_dev/build/py_pubsub/install.log --single-version-externally-managed
