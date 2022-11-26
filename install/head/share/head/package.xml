@@ -8,12 +8,11 @@
   <license>Apache License 2.0</license>
 
   <depend>rclpy</depend>
-  <depend>pyserial</depend>
+  <depend>python3-serial</depend>
 
   <exec_depend>std_msgs</exec_depend>
   <exec_depend>mbit_interfaces</exec_depend>
-  <exec_depend>tf</exec_depend>
-  <exec_depend>serial</exec_depend>
+  <exec_depend>tf2_ros_py</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

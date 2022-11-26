@@ -1,5 +1,0 @@
-[console_scripts]
-head_move_sub = head.head_move_sub:main
-head_state_service = head.head_state_service:main
-head_tf_move_sub = head.head_tf_move_sub:main
-

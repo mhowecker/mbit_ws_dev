@@ -1,4 +1,0 @@
-source;share/mbit_interfaces/local_setup.bash
-source;share/mbit_interfaces/local_setup.dsv
-source;share/mbit_interfaces/local_setup.sh
-source;share/mbit_interfaces/local_setup.zsh

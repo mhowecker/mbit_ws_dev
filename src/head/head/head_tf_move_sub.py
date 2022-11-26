@@ -23,7 +23,8 @@ class HeadTFMoveSub(Node):
         if lastx == "center" and lasty == "down":
             br.sendTransform((-0.010, 0.513, 1.079),
                             (0.694, -0.668, 0.178, 0.199),
-                            rospy.Time.no                         "/hobbit",
+                            rospy.Time.now(),
+                            "/hobbit",
                             "/topcamera_rgb_optical_frame")
 
         '''

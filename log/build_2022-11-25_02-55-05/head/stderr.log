@@ -1,7 +1,0 @@
-/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
-  warnings.warn(
-  File "/home/martin/ros2_workspaces/ros2_ws_dev/install/head/lib/python3.10/site-packages/head/head_tf_move_sub.py", line 24
-    br.sendTransform((-0.010, 0513, 1.079),
-                              ^
-SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
-

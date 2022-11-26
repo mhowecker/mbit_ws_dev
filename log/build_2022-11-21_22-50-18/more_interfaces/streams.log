@@ -1,7 +1,0 @@
-[0.057s] Invoking command in '/home/martin/ros2_workspaces/ros2_ws_dev/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/martin/ros2_workspaces/ros2_ws_dev/install/py_srvcli:/home/martin/ros2_workspaces/ros2_ws_dev/install/py_pubsub:/home/martin/ros2_workspaces/ros2_ws_dev/install/my_package:/opt/ros/humble /usr/bin/cmake /home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces
-[0.090s] [31mCMake Error at CMakeLists.txt:24:
-[0.091s]   Parse error.  Expected a command name, got right paren with text ")".
-[0.091s] 
-[0.091s] -- Configuring incomplete, errors occurred!
-[0.092s] [0m
-[0.102s] Invoked command in '/home/martin/ros2_workspaces/ros2_ws_dev/build/more_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/martin/ros2_workspaces/ros2_ws_dev/install/py_srvcli:/home/martin/ros2_workspaces/ros2_ws_dev/install/py_pubsub:/home/martin/ros2_workspaces/ros2_ws_dev/install/my_package:/opt/ros/humble /usr/bin/cmake /home/martin/ros2_workspaces/ros2_ws_dev/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/martin/ros2_workspaces/ros2_ws_dev/install/more_interfaces
