@@ -3,9 +3,15 @@
 <package format="3">
   <name>leanrning_tf2_py</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="martin@todo.todo">martin</maintainer>
-  <license>TODO: License declaration</license>
+  <description>Learning tf2 with rclpy</description>
+  <maintainer email="mhowecker@student.tgm.ac.at">Martin Howecker</maintainer>
+  <license>Apache License 2.0</license>
+
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>tf2_ros_py</exec_depend>
+  <exec_depend>turtlesim</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

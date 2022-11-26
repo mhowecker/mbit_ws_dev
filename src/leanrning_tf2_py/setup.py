@@ -13,13 +13,14 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='martin',
-    maintainer_email='martin@todo.todo',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    maintainer='Martin Howecker',
+    maintainer_email='mhowecker@student.tgm.ac.at',
+    description='Learning tf2 with rclpy',
+    license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'static_turtle_tf2_broadcaster = learning_tf2_py.static_turtle_tf2_broadcaster:main',
         ],
     },
 )
