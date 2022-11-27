@@ -22,75 +22,75 @@ class HeadMoveSub(Node):
 
         if msg.data == "up":
             ser = serial.Serial(self.output_location)
-            ser.write(bytes(chr(0xAA), 'ascii'))
+            ser.write(bytes(chr(0xAA), 'utf-8'))
             ser.flush()
-            ser.write(bytes(chr(0x87)+chr(0x01)+chr(0x0a)+chr(0x00), 'ascii'))
+            ser.write(bytes(chr(0x87)+chr(0x01)+chr(0x0a)+chr(0x00), 'utf-8'))
             ser.flush()
-            ser.write(bytes(chr(0x84)+chr(0x01)+chr(104)+chr(57), 'ascii'))
+            ser.write(bytes(chr(0x84)+chr(0x01)+chr(104)+chr(57), 'utf-8'))
             ser.flush()
             return
 
         if msg.data == "middle":
             ser = serial.Serial(self.output_location)
-            ser.write(bytes(chr(0xAA), 'ascii'))
+            ser.write(bytes(chr(0xAA), 'utf-8'))
             ser.flush()
-            ser.write(bytes(chr(0x87)+chr(0x01)+chr(0x0a)+chr(0x00), 'ascii'))
+            ser.write(bytes(chr(0x87)+chr(0x01)+chr(0x0a)+chr(0x00), 'utf-8'))
             ser.flush()
-            ser.write(bytes(chr(0x84)+chr(0x01)+chr(104)+chr(47), 'ascii'))
+            ser.write(bytes(chr(0x84)+chr(0x01)+chr(104)+chr(47), 'utf-8'))
             ser.flush()
             return
 
         if msg.data == "down":
             ser = serial.Serial(self.output_location)
-            ser.write(bytes(chr(0xAA), 'ascii'))
+            ser.write(bytes(chr(0xAA), 'utf-8'))
             ser.flush()
-            ser.write(bytes(chr(0x87)+chr(0x01)+chr(0x0a)+chr(0x00), 'ascii'))
+            ser.write(bytes(chr(0x87)+chr(0x01)+chr(0x0a)+chr(0x00), 'utf-8'))
             ser.flush()
-            ser.write(bytes(chr(0x84)+chr(0x01)+chr(104)+chr(37), 'ascii'))
+            ser.write(bytes(chr(0x84)+chr(0x01)+chr(104)+chr(37), 'utf-8'))
             ser.flush()
             return
 
         if msg.data == "left":
             ser = serial.Serial(self.output_location)
-            ser.write(bytes(chr(0xAA), 'ascii'))
+            ser.write(bytes(chr(0xAA), 'utf-8'))
             ser.flush()
-            ser.write(bytes(chr(0x87)+chr(0x00)+chr(0x0a)+chr(0x00), 'ascii'))
+            ser.write(bytes(chr(0x87)+chr(0x00)+chr(0x0a)+chr(0x00), 'utf-8'))
             ser.flush()
-            ser.write(bytes(chr(0x84)+chr(0x00)+chr(32)+chr(31), 'ascii'))
+            ser.write(bytes(chr(0x84)+chr(0x00)+chr(32)+chr(31), 'utf-8'))
             ser.flush()
             return
 
         if msg.data == "center":
             ser = serial.Serial(self.output_location)
-            ser.write(bytes(chr(0xAA), 'ascii'))
+            ser.write(bytes(chr(0xAA), 'utf-8'))
             ser.flush()
-            ser.write(bytes(chr(0x87)+chr(0x00)+chr(0x0a)+chr(0x00), 'ascii'))
+            ser.write(bytes(chr(0x87)+chr(0x00)+chr(0x0a)+chr(0x00), 'utf-8'))
             ser.flush()
-            ser.write(bytes(chr(0x84)+chr(0x00)+chr(24)+chr(42), 'ascii'))
+            ser.write(bytes(chr(0x84)+chr(0x00)+chr(24)+chr(42), 'utf-8'))
             ser.flush()
             return
 
         if msg.data == "right":
             ser = serial.Serial(self.output_location)
-            ser.write(bytes(chr(0xAA), 'ascii'))
+            ser.write(bytes(chr(0xAA), 'utf-8'))
             ser.flush()
-            ser.write(bytes(chr(0x87)+chr(0x00)+chr(0x0a)+chr(0x00), 'ascii'))
+            ser.write(bytes(chr(0x87)+chr(0x00)+chr(0x0a)+chr(0x00), 'utf-8'))
             ser.flush()
-            ser.write(bytes(chr(0x84)+chr(0x00)+chr(40)+chr(60), 'ascii'))
+            ser.write(bytes(chr(0x84)+chr(0x00)+chr(40)+chr(60), 'utf-8'))
             ser.flush()
             return
 
         if msg.data == "turnoff":
             ser = serial.Serial(self.output_location)
-            ser.write(bytes(chr(0xAA), 'ascii'))
+            ser.write(bytes(chr(0xAA), 'utf-8'))
             ser.flush()
-            ser.write(bytes(chr(0x87)+chr(0x00)+chr(0x0a)+chr(0x00), 'ascii'))
+            ser.write(bytes(chr(0x87)+chr(0x00)+chr(0x0a)+chr(0x00), 'utf-8'))
             ser.flush()
-            ser.write(bytes(chr(0x84)+chr(0x00)+chr(0)+chr(0), 'ascii'))
+            ser.write(bytes(chr(0x84)+chr(0x00)+chr(0)+chr(0), 'utf-8'))
             ser.flush()
-            ser.write(bytes(chr(0x87)+chr(0x01)+chr(0x0a)+chr(0x00), 'ascii'))
+            ser.write(bytes(chr(0x87)+chr(0x01)+chr(0x0a)+chr(0x00), 'utf-8'))
             ser.flush()
-            ser.write(bytes(chr(0x84)+chr(0x01)+chr(0)+chr(0), 'ascii'))
+            ser.write(bytes(chr(0x84)+chr(0x01)+chr(0)+chr(0), 'utf-8'))
             ser.flush()
 
 
