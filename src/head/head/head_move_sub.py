@@ -98,7 +98,7 @@ class HeadMoveSub(Node):
         if msg.data == "shutdown":
             self.destroy_node()
 
-        ser.write('\n' + '\r')
+        ser.write(bytes('\n' + '\r', 'utf-8'))
 
 
 def main():        
