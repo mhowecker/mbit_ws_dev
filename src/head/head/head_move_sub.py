@@ -12,13 +12,16 @@ class HeadMoveSub(Node):
         self.subscription = self.create_subscription(String, 'head_move', self.move_callback, 10)
         self.subscription
 
+        #self.output_location = '/dev/ttyACM0'
+        self.output_location = '/dev/stdout'
+
     def move_callback(self, msg):
         print(msg)
         global pubHS
 
 
         if msg.data == "up":
-            ser = serial.Serial('/dev/ttyACM0')
+            ser = serial.Serial(self.output_location)
             ser.write(chr(0xAA))
             ser.flush()
             ser.write(chr(0x87)+chr(0x01)+chr(0x0a)+chr(0x00))
@@ -28,7 +31,7 @@ class HeadMoveSub(Node):
             return
 
         if msg.data == "middle":
-            ser = serial.Serial('/dev/ttyACM0')
+            ser = serial.Serial(self.output_location)
             ser.write(chr(0xAA))
             ser.flush()
             ser.write(chr(0x87)+chr(0x01)+chr(0x0a)+chr(0x00))
@@ -38,7 +41,7 @@ class HeadMoveSub(Node):
             return
 
         if msg.data == "down":
-            ser = serial.Serial('/dev/ttyACM0')
+            ser = serial.Serial(self.output_location)
             ser.write(chr(0xAA))
             ser.flush()
             ser.write(chr(0x87)+chr(0x01)+chr(0x0a)+chr(0x00))
@@ -48,7 +51,7 @@ class HeadMoveSub(Node):
             return
 
         if msg.data == "left":
-            ser = serial.Serial('/dev/ttyACM0')
+            ser = serial.Serial(self.output_location)
             ser.write(chr(0xAA))
             ser.flush()
             ser.write(chr(0x87)+chr(0x00)+chr(0x0a)+chr(0x00))
@@ -58,7 +61,7 @@ class HeadMoveSub(Node):
             return
 
         if msg.data == "center":
-            ser = serial.Serial('/dev/ttyACM0')
+            ser = serial.Serial(self.output_location)
             ser.write(chr(0xAA))
             ser.flush()
             ser.write(chr(0x87)+chr(0x00)+chr(0x0a)+chr(0x00))
@@ -68,7 +71,7 @@ class HeadMoveSub(Node):
             return
 
         if msg.data == "right":
-            ser = serial.Serial('/dev/ttyACM0')
+            ser = serial.Serial(self.output_location)
             ser.write(chr(0xAA))
             ser.flush()
             ser.write(chr(0x87)+chr(0x00)+chr(0x0a)+chr(0x00))
@@ -78,7 +81,7 @@ class HeadMoveSub(Node):
             return
 
         if msg.data == "turnoff":
-            ser = serial.Serial('/dev/ttyACM0')
+            ser = serial.Serial(self.output_location)
             ser.write(chr(0xAA))
             ser.flush()
             ser.write(chr(0x87)+chr(0x00)+chr(0x0a)+chr(0x00))

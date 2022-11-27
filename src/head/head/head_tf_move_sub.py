@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 
-import tf
+import tf2_ros
 
 class HeadTFMoveSub(Node):
 
@@ -12,7 +12,7 @@ class HeadTFMoveSub(Node):
 
         self.lastx = ""
         self.lasty = ""
-        self.br = tf.TransformBroadcaster()
+        self.br = tf2_ros.TransformBroadcaster()
 
     def tf_move_callback(self, msg):
         if msg.data == "up" or msg.data == "down" or msg.data == "middle":
