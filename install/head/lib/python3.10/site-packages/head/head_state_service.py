@@ -12,8 +12,8 @@ class HeadStateService(Node):
         self.lastx = ""
 
     def head_state_callback(self, request, response):
-        response.lasty = lasty
-        response.lastx = lastx
+        response.lasty = self.lasty
+        response.lastx = self.lastx
         return response
 
 def main():
@@ -26,5 +26,5 @@ def main():
     rclpy.shutdown()
 
 
-if __nam__ == '__main__':
+if __name__ == '__main__':
     main()

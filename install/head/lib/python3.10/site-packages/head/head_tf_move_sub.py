@@ -3,6 +3,8 @@ from rclpy.node import Node
 
 import tf2_ros
 
+from std_msgs.msg import String
+
 class HeadTFMoveSub(Node):
 
     def __init__(self):
@@ -12,15 +14,15 @@ class HeadTFMoveSub(Node):
 
         self.lastx = ""
         self.lasty = ""
-        self.br = tf2_ros.TransformBroadcaster()
+        self.br = tf2_ros.TransformBroadcaster(self)
 
     def tf_move_callback(self, msg):
         if msg.data == "up" or msg.data == "down" or msg.data == "middle":
-            lasty = msg.data
-        if msg.data == "left" or mrs.data == "right" or msg.data == "center":
-            lastx = msg.data
+            self.lasty = msg.data
+        if msg.data == "left" or msg.data == "right" or msg.data == "center":
+            self.lastx = msg.data
 
-        if lastx == "center" and lasty == "down":
+        if self.lastx == "center" and self.lasty == "down":
             br.sendTransform((-0.010, 0.513, 1.079),
                             (0.694, -0.668, 0.178, 0.199),
                             rospy.Time.now(),
