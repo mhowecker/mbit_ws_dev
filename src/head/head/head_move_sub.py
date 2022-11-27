@@ -19,9 +19,11 @@ class HeadMoveSub(Node):
         print(msg)
         global pubHS
 
+        ser = serial.Serial(self.output_location)
+
 
         if msg.data == "up":
-            ser = serial.Serial(self.output_location)
+            #ser = serial.Serial(self.output_location)
             ser.write(bytes(chr(0xAA), 'utf-8'))
             ser.flush()
             ser.write(bytes(chr(0x87)+chr(0x01)+chr(0x0a)+chr(0x00), 'utf-8'))
@@ -31,7 +33,7 @@ class HeadMoveSub(Node):
             return
 
         if msg.data == "middle":
-            ser = serial.Serial(self.output_location)
+            #ser = serial.Serial(self.output_location)
             ser.write(bytes(chr(0xAA), 'utf-8'))
             ser.flush()
             ser.write(bytes(chr(0x87)+chr(0x01)+chr(0x0a)+chr(0x00), 'utf-8'))
@@ -41,7 +43,7 @@ class HeadMoveSub(Node):
             return
 
         if msg.data == "down":
-            ser = serial.Serial(self.output_location)
+            #ser = serial.Serial(self.output_location)
             ser.write(bytes(chr(0xAA), 'utf-8'))
             ser.flush()
             ser.write(bytes(chr(0x87)+chr(0x01)+chr(0x0a)+chr(0x00), 'utf-8'))
@@ -51,7 +53,7 @@ class HeadMoveSub(Node):
             return
 
         if msg.data == "left":
-            ser = serial.Serial(self.output_location)
+            #ser = serial.Serial(self.output_location)
             ser.write(bytes(chr(0xAA), 'utf-8'))
             ser.flush()
             ser.write(bytes(chr(0x87)+chr(0x00)+chr(0x0a)+chr(0x00), 'utf-8'))
@@ -61,7 +63,7 @@ class HeadMoveSub(Node):
             return
 
         if msg.data == "center":
-            ser = serial.Serial(self.output_location)
+            #ser = serial.Serial(self.output_location)
             ser.write(bytes(chr(0xAA), 'utf-8'))
             ser.flush()
             ser.write(bytes(chr(0x87)+chr(0x00)+chr(0x0a)+chr(0x00), 'utf-8'))
@@ -71,7 +73,7 @@ class HeadMoveSub(Node):
             return
 
         if msg.data == "right":
-            ser = serial.Serial(self.output_location)
+            #ser = serial.Serial(self.output_location)
             ser.write(bytes(chr(0xAA), 'utf-8'))
             ser.flush()
             ser.write(bytes(chr(0x87)+chr(0x00)+chr(0x0a)+chr(0x00), 'utf-8'))
@@ -81,7 +83,7 @@ class HeadMoveSub(Node):
             return
 
         if msg.data == "turnoff":
-            ser = serial.Serial(self.output_location)
+            #ser = serial.Serial(self.output_location)
             ser.write(bytes(chr(0xAA), 'utf-8'))
             ser.flush()
             ser.write(bytes(chr(0x87)+chr(0x00)+chr(0x0a)+chr(0x00), 'utf-8'))
@@ -95,9 +97,8 @@ class HeadMoveSub(Node):
         
         if msg.data == "shutdown":
             self.destroy_node()
-        
-        ser.write('\n' + '\r')
 
+        ser.write('\n' + '\r')
 
 
 def main():        
