@@ -92,6 +92,12 @@ class HeadMoveSub(Node):
             ser.flush()
             ser.write(bytes(chr(0x84)+chr(0x01)+chr(0)+chr(0), 'utf-8'))
             ser.flush()
+        
+        if msg.data == "shutdown":
+            self.destroy_node()
+        
+        ser.write('\n' + '\r')
+
 
 
 def main():        
