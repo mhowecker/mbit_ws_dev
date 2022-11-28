@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mbit_interfaces/msg/HeadState.msg
+// generated code does not contain a copyright notice
+
+
+module mbit_interfaces {
+  module msg {
+    struct HeadState {
+      string lastx;
+
+      string lasty;
+    };
+  };
+};

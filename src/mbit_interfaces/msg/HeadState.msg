@@ -1,0 +1,2 @@
+string lastx
+string lasty

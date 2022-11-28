@@ -1,3 +1,5 @@
+msg/HeadState.idl
+msg/HeadState.msg
 srv/HeadState.idl
 srv/HeadState.srv
 srv/HeadState_Request.msg

@@ -4,5 +4,7 @@ mbit_interfaces.egg-info/PKG-INFO
 mbit_interfaces.egg-info/SOURCES.txt
 mbit_interfaces.egg-info/dependency_links.txt
 mbit_interfaces.egg-info/top_level.txt
+mbit_interfaces/msg/__init__.py
+mbit_interfaces/msg/_head_state.py
 mbit_interfaces/srv/__init__.py
 mbit_interfaces/srv/_head_state.py
