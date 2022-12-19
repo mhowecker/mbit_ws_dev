@@ -5,22 +5,43 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-# find dependencies
+add_definitions(-std=c++0x)
+
 find_package(ament_cmake REQUIRED)
-# uncomment the following section in order to fill in
-# further dependencies manually.
-# find_package(<dependency> REQUIRED)
 
-if(BUILD_TESTING)
-  find_package(ament_lint_auto REQUIRED)
-  # the following line skips the linter which checks for copyrights
-  # comment the line when a copyright and license is added to all source files
-  set(ament_cmake_copyright_FOUND TRUE)
-  # the following line skips cpplint (only works in a git repo)
-  # comment the line when this package is in a git repo and when
-  # a copyright and license is added to all source files
-  set(ament_cmake_cpplint_FOUND TRUE)
-  ament_lint_auto_find_test_dependencies()
-endif()
+install(
+	DIRECTORY include/
+	DESTINATION include
+)
 
-ament_package()
+
+ament_package(
+  INCLUDE_DIRS include
+  LIBRARIES ${PROJECT_NAME}
+)
+
+
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
+
+set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
+
+
+set(XML_LIBRARY_SOURCE_DIR
+        src
+)
+
+set(XML_LIBRARY_SOURCE_FILES
+        src/pugixml.cpp
+)
+        
+set(XML_LIBRARY_HEADER_DIR
+        include
+)
+
+set(XML_LIBRARY_HEADER_FILES
+        include/pugiconfig.hpp
+        include/pugixml.hpp
+)
+
+include_directories(${XML_LIBRARY_HEADER_DIR})
+add_library(pugixml ${XML_LIBRARY_SOURCE_FILES} ${XML_LIBRARY_HEADER_FILES})
