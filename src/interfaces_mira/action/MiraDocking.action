@@ -1,0 +1,10 @@
+#goal definition
+uint32 docking_task
+---
+#result definition
+string res
+---
+#feedback
+string feedback
+
+
