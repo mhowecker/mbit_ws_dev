@@ -12,7 +12,7 @@
 
 #include <rclcpp/rclcpp.hpp>
 #include <interfaces_mira/MiraRobotModule.h>
-#include "sensor_msgs/LaserScan.h"
+#include "sensor_msgs/msg/laser_scan.hpp"
 
 #include <interfaces_mira/MiraRobot.h>
 

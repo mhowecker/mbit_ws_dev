@@ -1,7 +1,7 @@
 #include <interfaces_mira/MiraVirtualLaser.h>
 
 #include <nav_msgs/Odometry.h>
-#include <sensor_msgs/LaserScan.h>
+#include <sensor_msgs/msg/laser_scan.hpp>
 
 
 //#include <interfaces_mira/MiraRobot.h>

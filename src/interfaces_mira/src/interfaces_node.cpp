@@ -2,7 +2,7 @@
 //Based on code from the Strands project
 
 #include <rclcpp/rclcpp.hpp>
-#include <rclcpp/console.h>
+//#include <rclcpp/console.h>
 
 #include <interfaces_mira/MiraRobot.h>
 
